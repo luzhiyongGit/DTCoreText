@@ -26,6 +26,8 @@ Pod::Spec.new do |spec|
   
   spec.default_subspec = 'Core'
 
+  spec.static_framework = true
+
   spec.subspec 'Core' do |ap|
     ap.source_files = 'Core/Source/*.{h,m,c}'
   end
